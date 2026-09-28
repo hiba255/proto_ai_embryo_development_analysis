@@ -1,0 +1,18 @@
+# --- API ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+sqlalchemy>=2.0
+pymysql>=1.1
+cryptography>=42.0
+python-dotenv>=1.0
+# --- Interface ---
+streamlit>=1.35
+requests>=2.31
+pandas>=2.0
+# --- Vision / modèle (inférence en local, CPU) ---
+numpy>=1.26
+pillow>=10.0
+opencv-python-headless>=4.9
+torch>=2.2
+torchvision>=0.17
